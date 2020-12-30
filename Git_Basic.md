@@ -22,7 +22,7 @@ github에 레포지토리를 만들고 해당 레포지토리와 연결할 폴�
 
    
 
-   
+   <br>
 
 2. `git config`
 
@@ -46,7 +46,7 @@ github에 레포지토리를 만들고 해당 레포지토리와 연결할 폴�
 
    
 
-   
+   <br>
 
 3. `git add [file|folder]` | `git restore --staged [file|folder]`
 
@@ -75,7 +75,7 @@ github에 레포지토리를 만들고 해당 레포지토리와 연결할 폴�
      ~/Desktop/git (main) $ git restore --staged sample.txt
      ~/Desktop/git (main) $ git reset HEAD sample.txt
      ```
-
+      <br>
    
 
    
@@ -126,7 +126,7 @@ github에 레포지토리를 만들고 해당 레포지토리와 연결할 폴�
 
    
 
-   
+   <br>
 
 5. `git commit -m [message]`
 
@@ -141,7 +141,7 @@ github에 레포지토리를 만들고 해당 레포지토리와 연결할 폴�
     create mode 100644 sample.txt
    ```
 
-   
+   <br>   
 
    
 
@@ -178,7 +178,7 @@ github에 레포지토리를 만들고 해당 레포지토리와 연결할 폴�
 
    
 
-   
+   <br>
 
 7. `git remote add [repository] [github_url]`
 
@@ -199,7 +199,7 @@ github에 레포지토리를 만들고 해당 레포지토리와 연결할 폴�
    ```
 
    
-
+   <br>
    
 
 8. `git push [repository] [branch]`
