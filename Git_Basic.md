@@ -79,7 +79,6 @@ github에 레포지토리를 만들고 해당 레포지토리와 연결할 폴�
    
 
    
-
 4. `git status`
 
    ------
@@ -201,7 +200,6 @@ github에 레포지토리를 만들고 해당 레포지토리와 연결할 폴�
    
    <br>
    
-
 8. `git push [repository] [branch]`
 
    ------
@@ -219,4 +217,29 @@ github에 레포지토리를 만들고 해당 레포지토리와 연결할 폴�
    Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
    To <https://github.com/JissuPark/Git.git>
     * [new branch]      main -> main
+   ```
+   
+   <br>
+   
+9. `git pull [repository] [branch]`
+
+   ------
+
+   [repository]에 있는 파일들을 [branch]로 전송한다. == 파일 내려받기
+
+   ```bash
+   ~/Desktop/git (main) $ git pull upstream main
+   remote: Enumerating objects: 5, done.
+   remote: Counting objects: 100% (5/5), done.
+   remote: Compressing objects: 100% (2/2), done.
+   remote: Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+   Unpacking objects: 100% (3/3), 711 bytes | 44.00 KiB/s, done.
+   From <https://github.com/JissuPark/Git>
+    * branch            main       -> FETCH_HEAD
+      2ec5d53..8052b60  main       -> upstream/main
+   hint: Waiting for your editor to close the file...
+   [main 2020-12-30T15:52:33.121Z] update#setState idle
+   Merge made by the 'recursive' strategy.
+    Git_Basic.md | 16 ++++++++--------
+    1 file changed, 8 insertions(+), 8 deletions(-)
    ```
