@@ -17,7 +17,7 @@
 
    - 원격 레포지토리에 있는 `[git_url]`을 통해 복제한다.
 
-     ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e7cd6b2f-72a3-42f6-a0ab-f6ff0202ead2/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e7cd6b2f-72a3-42f6-a0ab-f6ff0202ead2/Untitled.png)
+     ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e7cd6b2f-72a3-42f6-a0ab-f6ff0202ead2/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20201230%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20201230T154635Z&X-Amz-Expires=86400&X-Amz-Signature=7a5c0adbf0eb5349c98ff3bda3fda33001e7b39fda73577a86174052156db240&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
      git_url 위치
 
