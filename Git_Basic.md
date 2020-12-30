@@ -26,6 +26,8 @@
 
    
 
+   
+
 2. `git config`
 
    ------
@@ -45,6 +47,8 @@
    user.name='이름'
    ...
    ```
+
+   
 
    
 
@@ -122,7 +126,9 @@
      no changes added to commit (use "git add" and/or "git commit -a")
      ```
 
-   
+     ​	
+
+     ​	
 
 5. `git commit -m [message]`
 
@@ -137,7 +143,9 @@
     create mode 100644 sample.txt
    ```
 
-   
+   ​	
+
+   ​			
 
 6. `git log (branch)`
 
@@ -170,7 +178,9 @@
    * d1d23e4 (HEAD -> main) [ADD] sample.txt
    ```
 
-   
+   ​		
+
+   ​			
 
 7. `git remote add [repository] [github_url]`
 
@@ -190,7 +200,9 @@
    upstream        <https://github.com/JissuPark/Git.git> (push)
    ```
 
-   
+   ​		
+
+   ​		
 
 8. `git push [repository] [branch]`
 
