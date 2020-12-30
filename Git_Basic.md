@@ -1,8 +1,4 @@
-# Git 기본 명령어
-
-**github에 레포지토리를 만들고 해당 레포지토리와 연결할 폴더가 전제되어있다. 또한, 일반적인 github 업로드 순서를 따라 작성되었다.**
-
-
+github에 레포지토리를 만들고 해당 레포지토리와 연결할 폴더가 전제되어있다. 또한, 일반적인 github 업로드 순서를 따라 작성되었다.
 
 1. `git init`
 
@@ -82,6 +78,8 @@
 
    
 
+   
+
 4. `git status`
 
    ------
@@ -126,9 +124,9 @@
      no changes added to commit (use "git add" and/or "git commit -a")
      ```
 
-     ​	
+   
 
-     ​	
+   
 
 5. `git commit -m [message]`
 
@@ -143,9 +141,9 @@
     create mode 100644 sample.txt
    ```
 
-   ​	
+   
 
-   ​			
+   
 
 6. `git log (branch)`
 
@@ -178,9 +176,9 @@
    * d1d23e4 (HEAD -> main) [ADD] sample.txt
    ```
 
-   ​		
+   
 
-   ​			
+   
 
 7. `git remote add [repository] [github_url]`
 
@@ -200,9 +198,9 @@
    upstream        <https://github.com/JissuPark/Git.git> (push)
    ```
 
-   ​		
+   
 
-   ​		
+   
 
 8. `git push [repository] [branch]`
 
