@@ -22,7 +22,8 @@
    drwxr-xr-x 1 qkrwl 197609 0 12월 30 21:23 ./
    drwxr-xr-x 1 qkrwl 197609 0 12월 30 21:22 ../
    drwxr-xr-x 1 qkrwl 197609 0 12월 30 21:23 .git/
-   ```
+   ```  
+   
    
    
 2. `git config`
@@ -43,11 +44,9 @@
    user.email='이메일'
    user.name='이름'
    ...
-   ```
-
+   ```  
    
    
-
 3. `git add [file|folder]` | `git restore --staged [file|folder]`
 
    ------
@@ -74,9 +73,9 @@
      ```bash
      ~/Desktop/git (main) $ git restore --staged sample.txt
      ~/Desktop/git (main) $ git reset HEAD sample.txt
-     ```
-  
-
+     ```  
+     
+     
 4. `git status`
 
    ------
@@ -119,11 +118,9 @@
              modified:   sample.txt
      
      no changes added to commit (use "git add" and/or "git commit -a")
-     ```
-
-   
-  
-
+     ```  
+     
+     
 5. `git commit -m [message]`
 
    ------
@@ -135,11 +132,9 @@
    [main (root-commit) d1d23e4] [ADD] sample.txt
     1 file changed, 1 insertion(+)
     create mode 100644 sample.txt
-   ```
-
+   ```  
    
-
-  
+     
 6. `git log (branch)`
 
    ------
@@ -169,11 +164,9 @@
    ```bash
    ~/Desktop/git (main) $ git log --oneline --graph
    * d1d23e4 (HEAD -> main) [ADD] sample.txt
-   ```
-
-     
+   ```  
    
-
+   
 7. `git remote add [repository] [github_url]`
 
    ------
@@ -190,11 +183,9 @@
    ~/Desktop/git (main) $ git remote -v
    upstream        <https://github.com/JissuPark/Git.git> (fetch)
    upstream        <https://github.com/JissuPark/Git.git> (push)
-   ```
-
+   ```  
    
-  
-
+   
 8. `git push [repository] [branch]`
 
    ------
