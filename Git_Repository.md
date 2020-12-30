@@ -9,6 +9,8 @@
    - `git init`으로 폴더를 초기화한다.
    - `git remote add [repository] [url]`을 통해서 연결한다.  
 
+   <br>
+
 2. `git clone [git_url]`
 
    ------
@@ -31,6 +33,8 @@
      Receiving objects: 100% (26/26), 5.84 KiB | 996.00 KiB/s, done.
      Resolving deltas: 100% (6/6), done.
      ```
+
+<br>
 
 처음 Git을 사용한다면 당연히 1번 방법부터 사용할 것이다.
 
