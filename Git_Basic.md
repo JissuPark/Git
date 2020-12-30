@@ -25,6 +25,7 @@
    ```
 
    
+   
 
 2. `git config`
 
@@ -46,6 +47,7 @@
    ...
    ```
 
+   
    
 
 3. `git add [file|folder]` | `git restore --staged [file|folder]`
@@ -77,6 +79,7 @@
      ```
 
    
+
 
 4. `git status`
 
@@ -124,6 +127,7 @@
 
    
 
+
 5. `git commit -m [message]`
 
    ------
@@ -138,6 +142,7 @@
    ```
 
    
+
 
 6. `git log (branch)`
 
@@ -171,6 +176,7 @@
    ```
 
    
+   
 
 7. `git remote add [repository] [github_url]`
 
@@ -191,6 +197,7 @@
    ```
 
    
+
 
 8. `git push [repository] [branch]`
 
