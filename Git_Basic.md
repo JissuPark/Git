@@ -23,10 +23,8 @@
    drwxr-xr-x 1 qkrwl 197609 0 12월 30 21:22 ../
    drwxr-xr-x 1 qkrwl 197609 0 12월 30 21:23 .git/
    ```
-
    
    
-
 2. `git config`
 
    ------
@@ -77,9 +75,7 @@
      ~/Desktop/git (main) $ git restore --staged sample.txt
      ~/Desktop/git (main) $ git reset HEAD sample.txt
      ```
-
-   
-
+  
 
 4. `git status`
 
@@ -126,7 +122,7 @@
      ```
 
    
-
+  
 
 5. `git commit -m [message]`
 
@@ -143,7 +139,7 @@
 
    
 
-
+  
 6. `git log (branch)`
 
    ------
@@ -175,7 +171,7 @@
    * d1d23e4 (HEAD -> main) [ADD] sample.txt
    ```
 
-   
+     
    
 
 7. `git remote add [repository] [github_url]`
@@ -197,7 +193,7 @@
    ```
 
    
-
+  
 
 8. `git push [repository] [branch]`
 
